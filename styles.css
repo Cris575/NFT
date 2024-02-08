@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 52%, 70%);
+    --Cyan-alpha: rgba(0, 255, 246, 0.5);
+    --Cyan: rgb(0, 255, 246);
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-BG);
+    height: 100vh;
+}
+
+main {
+    width: 300px;
+    background-color: var(--card-BG);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+h1,
+a {
+    color: var(--White);
+}
+
+h1:hover,
+a:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, .currency{
+    font-size: 0.84em;
+}
+p {
+    color: var(--Soft-blue);
+    line-height: 1.5em;
+}
+hr{
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-bottom: 1px var(--line) solid;
+}
+header {
+    position: relative;
+}
+
+header::after {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s ease;
+}
+header::after,.ethereum-img{
+    border-radius: 10px;
+}
+header:hover::after {
+    background-color: var(--Cyan-alpha);
+    background-image: url('images/icon-view.svg');
+
+}
+.eth{
+    color: var(--Cyan);
+    font-weight: bold;
+}
+.ethereum-img {
+    width: 100%;
+    height: auto;
+}
+.currency,.price-info,.flex-footer {
+    display: flex;
+}
+.price-info {
+    justify-content: space-between;
+    margin-bottom: 13.4px;
+}
+
+.currency,.flex-footer {
+    align-items: center;
+}
+
+.price-info img {
+    margin-right: 5px;
+}
+
+.flex-footer {
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.flex-footer img {
+    width: 11%;
+    height: 11%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.flex-footer p {
+    margin: 0;
+}
+
+.date-svg{
+    color: var(--Soft-blue);
+}
