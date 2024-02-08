@@ -12,7 +12,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 - If anyone sees this I want to tell them not to give up, to keep developing, to keep learning, I know it's frustrating at first, I know it very well, but little by little you will see the great progress you are making and you won't believe everything you see. They are capable, no matter what happens, don't give up and keep developing <3.
@@ -25,8 +24,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/blog-card-LmOJqdYLAP)
-- Live Site URL: [Blog Card](https://cris575.github.io/Blog-Card/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/nft-QoAF5irrHY)
+- Live Site URL: [Blog Card](https://cris575.github.io/NFT/)
 
 ### Built with
 
